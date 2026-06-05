@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'sql203.infinityfree.com');
-define('DB_USER', 'if0_42087341');
-define('DB_PASS', 'IamDung1');          // XAMPP mặc định không có password
-define('DB_NAME', 'if0_42087341_crm_db');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');          // XAMPP mặc định không có password
+define('DB_NAME', 'crm_db');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 $conn->set_charset('utf8mb4');
